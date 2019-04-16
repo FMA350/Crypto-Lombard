@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0826328E2265DDE900346102 /* FinancialProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0826328D2265DDE900346102 /* FinancialProduct.swift */; };
+		082632902265E3CF00346102 /* variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0826328F2265E3CF00346102 /* variables.swift */; };
+		082632922265FE3100346102 /* userInterfaceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082632912265FE3100346102 /* userInterfaceData.swift */; };
 		084213EA2264964A00EBEEFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084213E92264964A00EBEEFC /* AppDelegate.swift */; };
-		084213EC2264964A00EBEEFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084213EB2264964A00EBEEFC /* ViewController.swift */; };
+		084213EC2264964A00EBEEFC /* OverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084213EB2264964A00EBEEFC /* OverviewViewController.swift */; };
 		084213EF2264964A00EBEEFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 084213ED2264964A00EBEEFC /* Main.storyboard */; };
 		084213F12264964B00EBEEFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 084213F02264964B00EBEEFC /* Assets.xcassets */; };
 		084213F42264964C00EBEEFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 084213F22264964C00EBEEFC /* LaunchScreen.storyboard */; };
+		0842140022649FBB00EBEEFC /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084213FF22649FBB00EBEEFC /* Currency.swift */; };
+		98C8DFC0B5672B378B0BEAE5 /* Pods_Crypto_Lombard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E02412D8B3F4FB11BC29C87D /* Pods_Crypto_Lombard.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0826328D2265DDE900346102 /* FinancialProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancialProduct.swift; sourceTree = "<group>"; };
+		0826328F2265E3CF00346102 /* variables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = variables.swift; sourceTree = "<group>"; };
+		082632912265FE3100346102 /* userInterfaceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userInterfaceData.swift; sourceTree = "<group>"; };
 		084213E62264964A00EBEEFC /* Crypto Lombard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crypto Lombard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		084213E92264964A00EBEEFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		084213EB2264964A00EBEEFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		084213EB2264964A00EBEEFC /* OverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewViewController.swift; sourceTree = "<group>"; };
 		084213EE2264964A00EBEEFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		084213F02264964B00EBEEFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		084213F32264964C00EBEEFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		084213F52264964C00EBEEFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		084213FF22649FBB00EBEEFC /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		423889FB35D451B1BEABC77B /* Pods-Crypto Lombard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crypto Lombard.debug.xcconfig"; path = "Target Support Files/Pods-Crypto Lombard/Pods-Crypto Lombard.debug.xcconfig"; sourceTree = "<group>"; };
+		59E754DB2E0B4B02ACAB1DA6 /* Pods-Crypto Lombard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crypto Lombard.release.xcconfig"; path = "Target Support Files/Pods-Crypto Lombard/Pods-Crypto Lombard.release.xcconfig"; sourceTree = "<group>"; };
+		E02412D8B3F4FB11BC29C87D /* Pods_Crypto_Lombard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Crypto_Lombard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98C8DFC0B5672B378B0BEAE5 /* Pods_Crypto_Lombard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +53,8 @@
 			children = (
 				084213E82264964A00EBEEFC /* Crypto Lombard */,
 				084213E72264964A00EBEEFC /* Products */,
+				1C399FAA8C422774CFAEADDF /* Pods */,
+				1F4C4166CDCED723090C35AC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +69,67 @@
 		084213E82264964A00EBEEFC /* Crypto Lombard */ = {
 			isa = PBXGroup;
 			children = (
-				084213E92264964A00EBEEFC /* AppDelegate.swift */,
-				084213EB2264964A00EBEEFC /* ViewController.swift */,
-				084213ED2264964A00EBEEFC /* Main.storyboard */,
-				084213F02264964B00EBEEFC /* Assets.xcassets */,
-				084213F22264964C00EBEEFC /* LaunchScreen.storyboard */,
+				084213FD226497A300EBEEFC /* Controllers */,
 				084213F52264964C00EBEEFC /* Info.plist */,
+				084213FB2264979300EBEEFC /* Models */,
+				084213FE22649AEE00EBEEFC /* Others */,
+				084213FC2264979E00EBEEFC /* Views */,
 			);
 			path = "Crypto Lombard";
+			sourceTree = "<group>";
+		};
+		084213FB2264979300EBEEFC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				084213FF22649FBB00EBEEFC /* Currency.swift */,
+				0826328D2265DDE900346102 /* FinancialProduct.swift */,
+				0826328F2265E3CF00346102 /* variables.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		084213FC2264979E00EBEEFC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				084213F02264964B00EBEEFC /* Assets.xcassets */,
+				084213ED2264964A00EBEEFC /* Main.storyboard */,
+				084213F22264964C00EBEEFC /* LaunchScreen.storyboard */,
+				082632912265FE3100346102 /* userInterfaceData.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		084213FD226497A300EBEEFC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				084213EB2264964A00EBEEFC /* OverviewViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		084213FE22649AEE00EBEEFC /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				084213E92264964A00EBEEFC /* AppDelegate.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		1C399FAA8C422774CFAEADDF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				423889FB35D451B1BEABC77B /* Pods-Crypto Lombard.debug.xcconfig */,
+				59E754DB2E0B4B02ACAB1DA6 /* Pods-Crypto Lombard.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1F4C4166CDCED723090C35AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E02412D8B3F4FB11BC29C87D /* Pods_Crypto_Lombard.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +139,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 084213F82264964C00EBEEFC /* Build configuration list for PBXNativeTarget "Crypto Lombard" */;
 			buildPhases = (
+				B82C2E24E174C76A6C817778 /* [CP] Check Pods Manifest.lock */,
 				084213E22264964A00EBEEFC /* Sources */,
 				084213E32264964A00EBEEFC /* Frameworks */,
 				084213E42264964A00EBEEFC /* Resources */,
+				18C94C318D5F9A4331D1EC1D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +200,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		18C94C318D5F9A4331D1EC1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Crypto Lombard/Pods-Crypto Lombard-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Crypto Lombard/Pods-Crypto Lombard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B82C2E24E174C76A6C817778 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Crypto Lombard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		084213E22264964A00EBEEFC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				084213EC2264964A00EBEEFC /* ViewController.swift in Sources */,
+				0842140022649FBB00EBEEFC /* Currency.swift in Sources */,
+				084213EC2264964A00EBEEFC /* OverviewViewController.swift in Sources */,
+				082632922265FE3100346102 /* userInterfaceData.swift in Sources */,
 				084213EA2264964A00EBEEFC /* AppDelegate.swift in Sources */,
+				082632902265E3CF00346102 /* variables.swift in Sources */,
+				0826328E2265DDE900346102 /* FinancialProduct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +403,7 @@
 		};
 		084213F92264964C00EBEEFC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 423889FB35D451B1BEABC77B /* Pods-Crypto Lombard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +422,7 @@
 		};
 		084213FA2264964C00EBEEFC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59E754DB2E0B4B02ACAB1DA6 /* Pods-Crypto Lombard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
